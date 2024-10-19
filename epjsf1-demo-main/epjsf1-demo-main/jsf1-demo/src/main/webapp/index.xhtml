@@ -1,0 +1,17 @@
+<html xmlns:h="http://java.sun.com/jsf/html">
+  <head>
+    <title>My First JSF Application</title>
+  </head>
+  <body>
+    <h3>Kishore</h3>
+    <h:form>
+      Input A:<h:inputText value="#{calci.a}" type="text" />
+      <br/><br/>
+      Input B:<h:inputText value="#{calci.b}" type="text" />
+      <br/><br/>
+      Result: #{calci.c}
+      <br/><br/>
+      <h:commandButton action="#{calci.add}" value="ADD" />
+    </h:form>
+  </body>
+</html>
